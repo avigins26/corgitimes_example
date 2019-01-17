@@ -1,0 +1,121 @@
+html, body {
+margin:0;
+padding:0;
+}
+
+*  {
+  box-sizing: border-box;
+}
+
+/* Title Stuff */
+
+.title {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 5px 0px;
+  border-bottom: 2px solid grey
+}
+
+.title h1 {
+  margin-top: 5px;
+  margin-bottom: 5px;
+  font-family: 'IBM Plex Serif', serif;
+  font-size: 48px;
+}
+
+/* First Row */
+
+.first-row  {
+  display: flex;
+  align-items: stretch;
+}
+
+.ff-column {
+  width: 25%;
+  border: 0.5px solid grey;
+}
+
+.fs-column {
+  width: 50%;
+  align-content: center;
+  justify-content: center;
+  border: 0.5px solid grey;
+}
+
+.ft-column {
+  width: 25%;
+  border: 1px solid grey;
+  border-left: 0.5px solid grey;
+}
+
+.first-row-title  {
+  font-family: 'IBM Plex Serif', serif;
+  font-weight: 700i;
+  font-size: 24px;
+  text-align: center;
+  padding-bottom: 10px;
+}
+
+.first-row-text  {
+  font-family: 'IBM Plex Sans', sans-serif;
+  font-weight: 100;
+  font-size: 18px;
+  padding: 5px 0px;
+}
+
+.fs-image  {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Second Row of the page */
+
+.second-row  {
+  display: flex;
+  align-items: stretch;
+}
+
+.sf-column  {
+  width: 25%;
+  border: 0.5px solid grey;
+  align-content: center;
+  justify-content: center;
+}
+
+.ss-column  {
+  width: 75%;
+  border: 1px solid grey;
+  align-content: center;
+  justify-content: center;
+  border-left: 0.5px solid grey;
+  border-right: 0.5px solid grey;
+}
+
+.ss-column h3  {
+  font-family: 'IBM Plex Serif', sans-serif;
+  font-size: 24px;
+  font-weight: 700;
+  margin: 0px;
+  padding: 16px 25px;
+}
+
+/* Options colours*/
+
+.option  {
+  display: flex;
+  flex: 1;
+}
+
+.option:hover  {
+  text-decoration: underline;
+}
+
+.option:nth-child(1) {background-color: yellow}
+.option:nth-child(2) {background-color: green}
+.option:nth-child(3) {background-color: blue}
+.option:nth-child(4) {background-color: purple}
+.option:nth-child(5) {background-color: grey}
